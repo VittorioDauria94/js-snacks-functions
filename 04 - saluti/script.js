@@ -11,7 +11,7 @@ const name = "Mario";
  * @returns {string}
  */
 
-const sayHello = (word) => "ciao " + word;
+const sayHello = (word) => `ciao ${word}`;
 
 // Invoca la funzione qui e stampa il risultato in console
 

@@ -11,7 +11,26 @@ const word = "javascript";
  * @returns {number}
  */
 
-function howManyVowels(inputWord) {
+// function howManyVowels(inputWord) {
+//   let numberOfVowels = 0;
+//   for (let i = 0; i < inputWord.length; i++) {
+//     const curLetter = inputWord[i].toLowerCase();
+//     if (
+//       curLetter === "a" ||
+//       curLetter === "e" ||
+//       curLetter === "i" ||
+//       curLetter === "o" ||
+//       curLetter === "u"
+//     ) {
+//       numberOfVowels++;
+//     }
+//   }
+//   return numberOfVowels;
+// }
+
+// Arrow function
+
+const howManyVowels = (inputWord) => {
   let numberOfVowels = 0;
   for (let i = 0; i < inputWord.length; i++) {
     const curLetter = inputWord[i].toLowerCase();

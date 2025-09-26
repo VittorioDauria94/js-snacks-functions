@@ -11,14 +11,26 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
  * @returns {array}
  */
 
-function firstLetterOfArray(array) {
+// function firstLetterOfArray(array) {
+//   const lettersArray = [];
+//   for (let i = 0; i < array.length; i++) {
+//     const curName = array[i];
+//     lettersArray[i] = curName[0];
+//   }
+//   return lettersArray;
+// }
+
+// Arrow functions
+
+const firstLetterOfArray = (array) => {
   const lettersArray = [];
   for (let i = 0; i < array.length; i++) {
     const curName = array[i];
     lettersArray[i] = curName[0];
   }
   return lettersArray;
-}
+};
+
 
 // Invoca la funzione qui e stampa il risultato in console
 

@@ -12,7 +12,22 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
  * @returns {array}
  */
 
-function searchNameWithLetter(array, letter) {
+// function searchNameWithLetter(array, letter) {
+//   const searchedArray = [];
+//   let counter = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     const curName = array[i];
+//     if (curName[0] === letter) {
+//       searchedArray[counter] = curName;
+//       counter++;
+//     }
+//   }
+//   return searchedArray;
+// }
+
+// Arrow functions
+
+const searchNameWithLetter = (array, letter) => {
   const searchedArray = [];
   let counter = 0;
   for (let i = 0; i < array.length; i++) {
@@ -23,7 +38,7 @@ function searchNameWithLetter(array, letter) {
     }
   }
   return searchedArray;
-}
+};
 
 // Invoca la funzione qui e stampa il risultato in console
 

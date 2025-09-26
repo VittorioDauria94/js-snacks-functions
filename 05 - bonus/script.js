@@ -17,7 +17,24 @@ const name = "Mario";
  * @returns {string}
  */
 
-function greetings(word) {
+// function greetings(word) {
+//   let sayGreatings = "";
+//   const hour = new Date().getHours();
+
+//   if (hour < 13) {
+//     sayGreatings = `Buongiorno ${word}`;
+//   } else if (hour < 17) {
+//     sayGreatings = `Buon pomeriggio ${word}`;
+//   } else {
+//     sayGreatings = `Buonasera ${word}`;
+//   }
+
+//   return sayGreatings;
+// }
+
+// Arrow function
+
+const greetings = (word) => {
   let sayGreatings = "";
   const hour = new Date().getHours();
 
