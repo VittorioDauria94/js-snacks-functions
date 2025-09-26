@@ -24,5 +24,4 @@ function firstLetterOfArray(array) {
 
 console.log(firstLetterOfArray(names));
 
-
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
